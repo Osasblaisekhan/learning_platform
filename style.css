@@ -215,8 +215,21 @@
 
   .about-us-section .tutors-pic img{
 
-    width: 375px;
+    width: 385px;
   }
+
+  .about-us-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 30px;
+  }
+
+   .about-us-section .container .sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
 
   .about-us-section .container .sub-container .infor{
     display: flex;
