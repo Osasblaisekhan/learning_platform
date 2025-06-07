@@ -111,6 +111,7 @@
    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0 15px;
     gap: 30px;
     margin-top: 90px;
@@ -211,6 +212,12 @@
     font-size: 30px;
     font-weight: 500;
     color: #000;
+  }
+
+  .about-us-section .tutors-pic .ubuntu{
+    display: block;
+    height: 600px;
+    width: 385px;
   }
 
   .about-us-section .tutors-pic img{
@@ -349,6 +356,8 @@
   .general-section{
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
     padding: 0 15px;
     gap: 30px;
     margin-top: 90px;
@@ -450,6 +459,35 @@
     font-weight: 500;
     color: #000;
   }
+
+   .about-us-section .tutors-pic img{
+
+    width: 500px;
+  }
+  .about-us-section .tutors-pic .ubuntu{
+    height: 670px;
+  }
+
+  .about-us-section .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 45px;
+    margin-top: 30px;
+  }
+
+   .about-us-section .container .sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+  .about-us-section .container .sub-container .infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
 }
 
 
@@ -507,6 +545,8 @@
     .general-section{
    display: flex;
    flex-direction: column;
+   align-items: center;
+   justify-content: center;
     padding: 0 15px;
     gap: 30px;
     margin-top: 90px;
@@ -608,4 +648,41 @@
     font-weight: 500;
     color: #000;
   }
+
+  .about-us-section .tutors-pic .akon{
+    height: 600px;
+  }
+   .about-us-section .tutors-pic img{
+
+    width: 550px;
+  }
+
+
+
+  .about-us-section .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+   gap: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+
+   .about-us-section .container .sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+  .about-us-section .container .sub-container .infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .infor a{
+    margin-left: -500px;
+    display: block;
+    
+  }
+
 }

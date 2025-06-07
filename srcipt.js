@@ -8,6 +8,16 @@ mobileMenu.addEventListener('click',()=>{
 
 const list = [1,2,3,4,5,6,-1,-3,-19,-100,-67,-54,76, -12,87,-65,-90];
 
+var x = 1;
+
+if(x===1){
+    var x = 2;
+    
+    console.log('yoo osas', x);
+}
+
+
+
 
 
 const random = () =>{
