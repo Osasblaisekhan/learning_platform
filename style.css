@@ -213,6 +213,17 @@
     color: #000;
   }
 
+  .about-us-section .tutors-pic img{
+
+    width: 375px;
+  }
+
+  .about-us-section .container .sub-container .infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 
   
 }
