@@ -244,7 +244,59 @@
     align-items: center;
   }
 
+  .course-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+    margin-top: 20px;
+  }
 
+  .course-details .course-tittle h2{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+   .course-details .course-tittle h2 span{
+    color: green;
+    
+   }
+
+   .course-details .course-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+   }
+
+   .course-details .course-intro h2{
+    text-align: center;
+   }
+    .course-details .course-intro h2 span{
+    color: green;
+    text-decoration: none;
+   }
+
+   .course-details .course-intro .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 25px;
+    text-align: center;
+   }
+
+   .course-details .course-intro .list li{
+
+  list-style-type: lower-roman;
+    font-weight: 500;
+    font-size: 25px;
+   }
   
 }
 
@@ -488,6 +540,63 @@
   }
 
 
+
+  .course-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .course-details .course-tittle h2{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+   .course-details .course-tittle h2 span{
+    color: green;
+    
+   }
+
+   .course-details .course-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+   }
+
+   .course-details .course-intro h2{
+    text-align: center;
+   }
+    .course-details .course-intro h2 span{
+    color: green;
+    text-decoration: none;
+   }
+
+   .course-details .course-intro .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 25px;
+    text-align: center;
+   }
+
+   .course-details .course-intro .list li{
+
+  list-style-type: lower-roman;
+    font-weight: 500;
+    font-size: 25px;
+   }
+  
+
+
 }
 
 
@@ -684,5 +793,61 @@
     display: block;
     
   }
+
+
+  .course-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .course-details .course-tittle h2{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+   .course-details .course-tittle h2 span{
+    color: green;
+    
+   }
+
+   .course-details .course-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+   }
+
+   .course-details .course-intro h2{
+    text-align: center;
+   }
+    .course-details .course-intro h2 span{
+    color: green;
+    text-decoration: none;
+   }
+
+   .course-details .course-intro .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 25px;
+    text-align: center;
+   }
+
+   .course-details .course-intro .list li{
+
+  list-style-type: lower-roman;
+    font-weight: 500;
+    font-size: 25px;
+   }
+  
 
 }
