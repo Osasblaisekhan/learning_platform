@@ -245,6 +245,20 @@
     align-items: center;
   }
 
+  .about-us-section .container .sub-container .infor h2{
+    text-decoration: none;
+  }
+
+  
+  .about-us-section .container .sub-container .infor a{
+     text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 900;
+    background-color: green;
+   width: 160px;
+  }
+
   .course-details{
     display: flex;
     flex-direction: column;
@@ -555,6 +569,19 @@
     align-items: center;
   }
 
+   .about-us-section .container .sub-container .infor h2{
+    text-decoration: none;
+  }
+
+  .about-us-section .container .sub-container .infor a{
+     text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 900;
+    background-color: green;
+   width: 160px;
+  }
+
 
 
   .course-details{
@@ -817,9 +844,23 @@
     justify-content: space-between;
     align-items: center;
   }
+
+   .about-us-section .container .sub-container .infor h2{
+    text-decoration: none;
+  }
+
+ 
+  
   .container .infor a{
-    margin-left: -500px;
-    display: block;
+    margin-left: -260px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 900;
+   
+    background-color: green;
+   width: 160px;
+
     
   }
 
